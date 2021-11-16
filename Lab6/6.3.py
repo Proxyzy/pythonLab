@@ -1,0 +1,7 @@
+a, b, c, d = eval(input())
+f = open("../kint.txt", "w")
+f.write(f'a = {a}\n')
+f.write(f'b = {b}\n')
+f.write(f'c = {c}\n')
+f.write(f'd = {d}')
+f.close()
